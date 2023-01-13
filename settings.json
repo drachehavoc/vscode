@@ -1,0 +1,37 @@
+{
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 1,
+	// EDITOR
+	"editor.tabSize": 2,
+	"editor.inlineSuggest.enabled": true,
+	// EXPLORER
+	"explorer.confirmDelete": true,
+	// WORKBENCH
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.iconTheme": "material-icon-theme",
+	// SECURITY
+	"security.workspace.trust.untrustedFiles": "open",
+	// EXTENSION: CONTAINERS
+	"dev.containers.dockerPath": "docker",
+	"dev.containers.dockerComposePath": "docker-compose",
+	// EXTENSION: DART
+	"dart.lineLength": 127,
+	"dart.debugExternalPackageLibraries": true,
+	"dart.debugSdkLibraries": false,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [ 80, 127 ],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "on",
+		"editor.wordBasedSuggestions": false
+	},
+	// EXTENSION: REST CLIENT
+	"rest-client.enableCustomVariableReferencesCodeLens": false,
+	"rest-client.enableSendRequestCodeLens": false,
+	// ----------------------------------------------------------------------------------------------------------
+	"----------------------------------------------------": "----------------------------------------------------",
+}
